@@ -1,0 +1,33 @@
+html {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+/* Background style */
+body {
+    /* Gradient colors */
+    background: linear-gradient(132deg, #E90059, #8200BF, #190B2E);
+    background-size: 400% 400%;
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    animation: Gradient 15s ease infinite;
+}
+
+/* Animation of the background */
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
