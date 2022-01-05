@@ -1,0 +1,112 @@
+/*  =========================   SUMMARY   =========================
+
+        - Imports;
+    -----------------------------------
+        - Custom fonts;
+    -----------------------------------
+        - HTML main style;
+    -----------------------------------
+        - Background animation;
+    
+        - Header;
+        - Home;
+        - Content;
+    -----------------------------------
+        - Dark/Light themes;
+    -----------------------------------
+        - Footer;
+    -----------------------------------
+        - Screen responsivity
+    -----------------------------------
+*/
+
+
+
+/*  #region Imports */
+
+/*  #endregion Imports */
+
+
+/*  #region Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nunito:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/*font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Quicksand', sans-serif; */
+
+/*  #endregion Custom fonts */
+
+
+/*  #region HTML main style */
+
+html {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*  #endregion HTML main style */
+
+
+/*  #region Background animation */
+
+body {
+    /* Gradient color stops */
+    background: linear-gradient(132deg, #FFC0DA, #E90059, #8200BF, #190B2E);
+    background-size: 400% 400%;
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    animation: Gradient 15s ease infinite;
+}
+/* Animation of the background */
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*  #endregion Background animation */
+
+
+/*  #region Header */
+
+/*  #endregion Header */
+
+
+/*  #region Home */
+
+/*  #endregion Home */
+
+
+/*  #region Content */
+
+/*  #endregion Content */
+
+
+/*  #region Dark/Light themes */
+
+/*  #endregion Dark/Light themes */
+
+
+/*  #region Footer */
+
+/*  #endregion Footer */
+
+
+/*  #region Screen responsivity */
+
+/*  #endregion Screen responsivity */
+
