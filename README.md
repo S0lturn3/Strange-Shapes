@@ -8,17 +8,9 @@ Hello.
 
 
     CREDITS
-<<<<<<< HEAD
 
-     - (Favicon) - https://www.flaticon.com/premium-icon/polygon_4674286?related_id=4674286 ;
-     
-=======
-     - (Main inspiration) - https://9elements.github.io/fancy-border-radius/#80.65.58.18--. ;
-     - (Animated background gradient) - https://codepen.io/nouribram/pen/OzqNvJ ;
-     - (DIV gradient colors) - https://www.30secondsofcode.org/articles/s/25-css-gradients ;
-     - (Favicon) - https://www.flaticon.com/premium-icon/polygon_4674286?related_id=4674286 ;
->>>>>>> 655022f9608e37800853563391b4b5f4d31bec72
-     - (FontAwesome Icons) - https://fontawesome.com/ ;
+     - (Favicon) - https://www.flaticon.com/premium-icon/polygon_4674286?related_id=4674286
+     - (FontAwesome Icons) - https://fontawesome.com/
 
 
 
