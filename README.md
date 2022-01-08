@@ -15,6 +15,7 @@ Greetings!
         - (Animated background gradient) - https://codepen.io/nouribram/pen/OzqNvJ ;
         - (DIV gradient colors) - https://www.30secondsofcode.org/articles/s/25-css-gradients ;
         - (Favicon) - https://www.flaticon.com/premium-icon/polygon_4674286?related_id=4674286 ;
+        - (FontAwesome Icons) - https://fontawesome.com/ ;
 
 
 Thank you for the attention, take care!
