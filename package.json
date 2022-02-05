@@ -1,4 +1,13 @@
 {
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "start-open": "ng serve --open"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4"
   },

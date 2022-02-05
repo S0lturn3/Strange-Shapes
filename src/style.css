@@ -20,22 +20,25 @@
 */
 
 
-/*  #region Imports */
-
-/*  #endregion Imports */
+/*  #region IMPORTS */
 
 
-/*  #region Custom fonts */
+
+/*  #endregion IMPORTS */
+
+
+/*  #region CUSTOM FONTS */
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nunito:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /*font-family: 'Comfortaa', cursive;
 font-family: 'Nunito', sans-serif;
 font-family: 'Quicksand', sans-serif; */
 
-/*  #endregion Custom fonts */
+/*  #endregion CUSTOM FONTS */
 
 
-/*  #region HTML main style */
+/*  #region HTML */
 
 * {
     padding: 0;
@@ -49,39 +52,44 @@ html {
     color: white;
 }
 body {
-    background-color: #111827;
-
     overflow-x: hidden;
+
+    background-color: rgb(1, 1, 19);
 }
 
 /*  #endregion HTML main style */
 
-/*  #region Custom Scrollbar style */
+
+/*  #region SCROLLBAR */
+
+:root {
+    scrollbar-color: rgb(210,210,210) rgb(46,54,69) !important;
+    scrollbar-width: thin !important;
+}
 
 ::-webkit-scrollbar {
   width: 5px;
-  /* display: none; */
 }
 ::-webkit-scrollbar-track {
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #1413183c;
+    background-color: rgba(63, 61, 70, 0.8);
     border-radius: 5px;
 
     transition: all .6s;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(63, 61, 70, 0.8);
+    background-color: rgba(108, 106, 116, 0.8);
 }
 ::-webkit-scrollbar-corner {
     display: none;
 }
 
-/* #endregion Custom Scrollbar style */
+/* #endregion SCROLLBAR */
 
 
-/*  #region Home */
+/*  #region HOME */
 
 #gradientBar {
     top: 0;
@@ -118,21 +126,33 @@ body {
     height: 60vh;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    background: linear-gradient(to bottom, #773d8a, #3a2054, rgb(1, 1, 19));
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 #title {
     font-size: 3em;
+    padding: 2rem;
+}
+.home > #firstParagraph {
+    text-align: left;
+}
+.home > #secondParagraph {
+    text-align: right;
 }
 
+/*  #endregion HOME */
 
-/*  #endregion */
+
+/* #region CONTENT */
 
 .main-content {
     width: 100%;
     height: 120vh;
-
-    background-color: rgba(5, 5, 15, 0.5);
 
     padding: 3rem;
 }
@@ -170,8 +190,12 @@ body {
 
     padding: 2rem;
     margin: 3rem 0;
-    border: 1px solid white;
+    border: 1px solid rgba(63, 61, 70, 0.8);
+    border-radius: 15px;
     overflow-y: scroll;
+
+    scrollbar-color: rgb(210,210,210) rgb(46,54,69) !important;
+    scrollbar-width: thin !important;
 
     display: flex;
     justify-content: space-evenly;
@@ -194,6 +218,11 @@ body {
     height: 50px;
     width: 100%;
     border: 1px solid white;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .description p {
     font-size: .8em;
@@ -202,20 +231,51 @@ body {
     width: 225px;
     height: 225px;
     border: 1px solid white;
-
-    border-radius: 25% 25% 25% 25% / 50% 50% 50% 50%;
-    background: linear-gradient(to bottom, #ee0979, #ff6a00);
 }
 
-/*  #endregion Content */
+
+/* #region BORDER-RADIUS SHAPES */
+
+#shape1 {
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ff007b, #eb6b10, #ff8a37);
+}
+#shape2 {
+    border-radius: 15% 50% 15% 50% / 15% 50% 15% 50%;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+}
+#shape3 {
+    border-radius: 65% 35% 82% 18% / 80% 58% 42% 20%;
+    background: linear-gradient(to top, #03001e, #7303c0, #ec38bc, #fdeff9);
+}
+#shape4 {
+    border-radius: 13% 87% 64% 36% / 12% 47% 53% 88%;
+    background: linear-gradient(to bottom, #f5707d, #630b4a, #a00073);
+}
+#shape5 {
+    border-radius: 66% 34% 29% 71% / 33% 66% 34% 67%;
+    background: linear-gradient(to right, #ff355d, #4861df);
+}
+#shape6 {
+    border-radius: 50% 50% 10% 10% / 75% 75% 10% 10%;
+    background: linear-gradient(to bottom, #ffeaea, #f0506d, #c01f6a);
+}
+#shape7 {
+    border-radius: 10% 10% 50% 50% / 10% 10% 75% 75%;
+    background: linear-gradient(to bottom, #ff8bb0, #c33764, #6a308c, #040938);
+}
+#shape8 {
+    border-radius: 50% 50% 50% 50% / 30% 30% 60% 60%;
+    background: linear-gradient(to right, #6cffae, #159981, #2988aa, #155799);
+}
+
+/* #endregion BORDER-RADIUS SHAPES */
 
 
-/*  #region Dark/Light themes */
-
-/*  #endregion Dark/Light themes */
+/* #endregion CONTENT */
 
 
-/*  #region Footer */
+/*  #region FOOTER */
 
 footer {
     height: 32px;
@@ -243,9 +303,12 @@ footer a:hover { color: #ff4870; }
 
 .links > a { margin: 0px 15px; }
 
-/*  #endregion Footer */
+/*  #endregion FOOTER */
 
 
-/*  #region Screen responsivity */
+/*  #region RESPONSIVE LAYOUT */
 
-/*  #endregion Screen responsivity */
+
+
+/*  #endregion RESPONSIVE LAYOUT */
+
